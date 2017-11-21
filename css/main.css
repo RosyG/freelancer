@@ -1,3 +1,165 @@
 /*
  * Estilos de tu proyecto
  */
+ header {
+   width: 100%;/*Especificando q ocupen todo el ancho, ya que span solo ocupa el tamaño del texto*/
+   height: 110px;/*Altura que comprende la barra*/
+   margin: 0;
+   padding: 40px 95px;
+   box-sizing: border-box;/*para que no se ocupe espacio de más al fijar el padding anterior*/
+   position: fixed;
+ }
+ .back-blue {
+   background-color: #2c3e50;
+ }
+ .box-sizing {
+   box-sizing: border-box;/*para que no se ocupe espacio de más al fijar el padding anterior*/
+ }
+.mr-15 {
+  margin-right: 15px;/*Espacio entre cada menú en especifico*/
+}
+.back-green {
+   background: #18BC9C;
+ }
+ .clear {
+  clear: both;
+}
+ .float-left {
+   float: left;
+ }
+ .float-right {
+   float: right;
+ }
+.line-start {
+  width: 250px;
+  height: 5px;
+  background: grey;
+  border: grey;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+#portfolio > section > img {/*Separación a la derecha y hacia abajo entre cada imagen*/
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width: 350px;
+  height: 255px;
+}
+#start-bootstrap {
+  /*height: 685px;/*alto q ocupará la sección de bootstrap*/
+  height: 795px;
+}
+
+#portfolio {
+/*  height: 885px;/*350,255, menos 100*/
+  height: 785px;
+  /*font-size: xx-large;*/
+}
+.text-left {/*Se uso para alinear el texto de About que esta en columnas*/
+  text-align: left;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+#about {
+  height: 580px;
+}
+#contactme {/*menos 115px*/
+  height: 820px;
+}
+#foot {
+  height: 350px
+}
+#mt_img {
+  /*margin-top: 90px;*/
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.txt-bootstrap {
+  font-size: 75px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.txt-intro {
+  font-size: 25px;
+}
+.menu {
+  font-size: initial;/*Siendo un identidicador por especificidad y orden solo afectara el tamaño de la letra en el menú*/
+  letter-spacing: 2px;/*Espacio entre letras*/
+}
+.white-letter {
+  color: white;/*Color de la letra en todo el txt de la barra de menú*/
+  font-size: xx-large;/*Tamaño de letra para el menú BOOTSTRAP*/
+  font-weight: bold;;/*Grosor de cada letra*/
+  font-family: 'Montserrat', sans-serif;
+}
+.montserrat-letter {
+  font-weight: bold;;/*Grosor de cada letra*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+}
+
+.lato-letter {/*Tipo de letra para el texto de About*/
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  letter-spacing: 0.8px;/*Espacio entre letras*/
+  line-height: 30px;/*Interlineado en el parrafo*/
+  width: 350px;
+  height: 175px;
+  vertical-align: text-top;
+}
+.text-center {
+  text-align: center;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+#bottom-download:hover {
+  background-color: white;
+  color: #18BC9C;
+}
+.bottom-download {
+ border: 2px solid;
+ border-radius: 10px;
+ margin: 70px 625px;
+ padding: 15px 15px;
+}
+.letter-download {
+  font-size: large;
+}
+input[type=text] {
+  border: none;
+  color: #D3D3D3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding: 35px 408px 30px 5px;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 70%;
+}
+#pb-180 {/*Es id porque con clase no hay cambios, tiene que ser un id para que tome en cuenta el aumento de padding en ese campo*/
+  padding-bottom: 180px;
+}
+.bottom-send {/*Medidas para el boton send*/
+  width: 80px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #18BC9C;
+    color: white;
+    padding-top: 8px;
+    margin-top: 25px;
+    margin-left: 26%;
+    font-size: 22px;
+    text-align: center;
+  }
+  #contactme > div:hover {
+    background-color: #128f76;
+  }
